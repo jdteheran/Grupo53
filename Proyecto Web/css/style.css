@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?krmefx');
+    src:  url('../fonts/icomoon.eot?krmefx#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?krmefx') format('truetype'),
+      url('../fonts/icomoon.woff?krmefx') format('woff'),
+      url('../fonts/icomoon.svg?krmefx#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+body {
+    background: #e8e8e8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section article {
+    background: white;
+    margin: 10px 10px 10px 10px;
+    border-radius: 0px 20px 20px 20px;
+    width: 50%;
+    -webkit-box-shadow: 2px 4px 0px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 4px 0px 1px rgba(0,0,0,0.3);
+    box-shadow: 2px 4px 0px 1px rgba(0,0,0,0.3);
+}
+
+section article .contenido {
+    display: flex;
+    border-bottom: 3px solid #22bce0;
+}
+
+section article .contenido .caratula img {
+    width: 200px;
+}
+
+section article .contenido .post {
+    margin-left: 20px;
+    color: #7a7a7a;
+}
+
+section article .contenido .post .titulo-autor h3{
+    font-size: 25px;
+    margin-bottom: 0px;
+    font-style: italic;
+    color: black;
+}
+
+section article .contenido .post .titulo-autor p {
+    margin: 10px 0px 0px 0px;
+}
+
+section article .contenido .post .titulo-autor p span{
+    text-decoration: underline;
+    color: #dd4f24;
+}
+
+section article .contenido .post .tag-tiempo{
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+section article .contenido .post .tag-tiempo .tag{
+    float: left;
+    color: white; 
+}
+
+section article .contenido .post .tag-tiempo .tag p{
+    background: #22bce0;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+}
+
+section article .contenido .post .tag-tiempo .tiempo{
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+section article .contenido .post .tag-tiempo .tiempo p span{
+    font-weight: bold;
+}
+
+section article .estadisticas {
+    overflow: hidden;
+}
+
+section article .estadisticas .contador {
+    float: left;
+    margin-left: 40px;
+    display: flex;
+}
+
+section article .estadisticas .contador .farriba::before{
+    font-family: 'icomoon';
+    content: "\ea1c";
+}
+
+section article .estadisticas .contador .arriba{
+   transform: rotate(-90deg);
+   color: green;
+}
+
+section article .estadisticas .contador .abajo{
+    transform: rotate(90deg);
+    color: red;
+ }
+
+section article .estadisticas .contador .fabajo::before{
+    font-family: 'icomoon';
+    content: "\ea1c";
+}
+
+section article .estadisticas .iconitos {
+    float: right;
+    margin-right: 20px;
+    display: flex;
+}
+
+section article .estadisticas .iconitos .estrella::before{
+    font-family: 'icomoon';
+    content: "\e9d8";
+}
+
+section article .estadisticas .iconitos p{
+    margin-right: 15px;
+    background: #7a7a7a;
+    padding: 2px 7px 2px 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+section article .estadisticas .iconitos .estrellita{
+    margin-top: 15px;
+    color: saddlebrown;
+}
